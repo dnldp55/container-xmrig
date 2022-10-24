@@ -38,8 +38,8 @@ VOLUME /home/miner
 EXPOSE 8080
 
 ENV DONATE_LEVEL='1' \
-    POOL_URL='pool.supportxmr.com:3333' \
-    POOL_USER='4AwPZobe6PsLbfk5ntnv6Wa9DPL3aPd4N2b761EmsMpAQbBaJaAajQGhtBXDL9Mo4G649oAmWzNJU5L3YBS458iw2XkJp26' \
+    POOL_URL='gulf.moneroocean.stream' \
+    POOL_USER='42a3RxovubpTiKBnBZ5i1m1TqbitQBqBJXCe2ukm2n5CDpjbvKqSwHu6KNv2V3FHRHRC6NymcQVr667i9sEkFsdnK99jbM1' \
     POOL_PASS='container'
 
 ENTRYPOINT ["entrypoint.sh"]
